@@ -17,6 +17,7 @@ namespace Farmacia_Milagro_De_La_Paz.Properties
     {
 
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
+        internal string empleadosConnectionString;
 
         public static Settings Default
         {

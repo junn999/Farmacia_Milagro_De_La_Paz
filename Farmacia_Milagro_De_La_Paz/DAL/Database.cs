@@ -1,4 +1,4 @@
-﻿using Farmacia_Milagro_De_La_Paz.DAL.Properties;
+﻿using Farmacia_Milagro_De_La_Paz.Properties;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -8,10 +8,9 @@ using System.Threading.Tasks;
 
 namespace Farmacia_Milagro_De_La_Paz.DAL
 {
-    class Database
+    public class Database
     {
-        public class Database
-        {
+        
             public static string getStrConnection()
             {
                 return Settings.Default.empleadosConnectionString;
@@ -37,6 +36,6 @@ namespace Farmacia_Milagro_De_La_Paz.DAL
                     return false;
                 }
             }
-        }
+        
     }
 }
