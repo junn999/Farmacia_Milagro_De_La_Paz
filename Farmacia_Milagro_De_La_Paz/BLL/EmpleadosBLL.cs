@@ -17,18 +17,17 @@ namespace Farmacia_Milagro_De_La_Paz.BLL
         private string salario;
         private string sucursal;
 
-
         public EmpleadosBLL(int id)
         {
             this.id = id;
         }
 
-        public EmpleadosBLL(int id, string nombres, string fecha, string dui, string telefono, string cargo, string salario, string sucursal)
+        public EmpleadosBLL(int id, string nombre_completo, string fecha_nacimiento, string numero_identidad, string telefono, string cargo, string salario, string sucursal)
         {
             this.id = id;
-            this.nombre_completo = nombres;
-            this.fecha_nacimiento = fecha;
-            this.numero_identidad = dui;
+            this.nombre_completo = nombre_completo;
+            this.fecha_nacimiento = fecha_nacimiento;
+            this.numero_identidad = numero_identidad;
             this.telefono = telefono;
             this.cargo = cargo;
             this.salario = salario;

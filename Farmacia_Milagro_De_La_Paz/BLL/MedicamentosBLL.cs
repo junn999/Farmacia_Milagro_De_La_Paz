@@ -36,13 +36,14 @@ namespace Farmacia_Milagro_De_La_Paz.BLL
             this.inventario = inventario;
         }
 
-        public int Id { get => id; set => id = value; }
-        public string Proveedor { get => id_proveedor; set => id_proveedor = value; }
-        public string Producto { get => nombre_del_producto; set => nombre_del_producto = value; }
+        
+        public int Id1 { get => id; set => id = value; }
+        public string Id_proveedor { get => id_proveedor; set => id_proveedor = value; }
+        public string Nombre_del_producto { get => nombre_del_producto; set => nombre_del_producto = value; }
         public string Presentacion { get => presentacion; set => presentacion = value; }
-        public string Caducidad { get => fecha_de_caducidad; set => fecha_de_caducidad = value; }
-        public string Compra { get => precio_de_compra; set => precio_de_compra = value; }
-        public string Venta { get => precio_de_venta; set => precio_de_venta = value; }
+        public string Fecha_de_caducidad { get => fecha_de_caducidad; set => fecha_de_caducidad = value; }
+        public string Precio_de_compra { get => precio_de_compra; set => precio_de_compra = value; }
+        public string Precio_de_venta { get => precio_de_venta; set => precio_de_venta = value; }
         public string Ganancia { get => ganancia; set => ganancia = value; }
         public string Inventario { get => inventario; set => inventario = value; }
     }

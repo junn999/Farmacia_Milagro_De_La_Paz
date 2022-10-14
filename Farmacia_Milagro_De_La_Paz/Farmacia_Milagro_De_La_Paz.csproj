@@ -64,6 +64,12 @@
     <Compile Include="PL\Empleados.Designer.cs">
       <DependentUpon>Empleados.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\FormInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FormInicio.Designer.cs">
+      <DependentUpon>FormInicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\Medicamentos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="PL\Empleados.resx">
       <DependentUpon>Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FormInicio.resx">
+      <DependentUpon>FormInicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
