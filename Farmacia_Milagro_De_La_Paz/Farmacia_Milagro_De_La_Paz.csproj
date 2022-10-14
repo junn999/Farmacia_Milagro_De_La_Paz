@@ -50,8 +50,8 @@
     <Compile Include="BLL\MedicamentosBLL.cs" />
     <Compile Include="BLL\PapeleriaBLL.cs" />
     <Compile Include="DAL\Database.cs" />
-    <Compile Include="DAL\EmpleadosDALL.cs" />
-    <Compile Include="DAL\MedicamentosDALL.cs" />
+    <Compile Include="DAL\EmpleadosDAL.cs" />
+    <Compile Include="DAL\MedicamentosDAL.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

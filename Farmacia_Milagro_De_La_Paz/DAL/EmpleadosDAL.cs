@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Farmacia_Milagro_De_La_Paz.DAL
 {
-    class EmpleadosDALL
+    class EmpleadosDAL
     {
     }
 }
