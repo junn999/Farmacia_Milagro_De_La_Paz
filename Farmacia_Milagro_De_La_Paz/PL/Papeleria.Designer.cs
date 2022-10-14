@@ -141,7 +141,7 @@ namespace Farmacia_Milagro_De_La_Paz.PL
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(37, 246);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(578, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(599, 150);
             this.dataGridView1.TabIndex = 12;
             // 
             // textBox7
