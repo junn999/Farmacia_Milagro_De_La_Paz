@@ -31,5 +31,10 @@ namespace Farmacia_Milagro_De_La_Paz.PL
         {
 
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
