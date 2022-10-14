@@ -16,5 +16,10 @@ namespace Farmacia_Milagro_De_La_Paz.PL
         {
             InitializeComponent();
         }
+
+        private void Papeleria_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

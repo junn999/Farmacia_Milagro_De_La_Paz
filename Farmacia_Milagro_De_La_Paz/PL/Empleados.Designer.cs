@@ -59,7 +59,7 @@ namespace Farmacia_Milagro_De_La_Paz.PL
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 99);
+            this.label2.Location = new System.Drawing.Point(42, 93);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 13);
             this.label2.TabIndex = 1;
@@ -68,7 +68,7 @@ namespace Farmacia_Milagro_De_La_Paz.PL
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(427, 246);
+            this.label3.Location = new System.Drawing.Point(427, 210);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(23, 13);
             this.label3.TabIndex = 2;
@@ -77,7 +77,7 @@ namespace Farmacia_Milagro_De_La_Paz.PL
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(42, 250);
+            this.label4.Location = new System.Drawing.Point(42, 210);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(49, 13);
             this.label4.TabIndex = 3;
@@ -87,7 +87,7 @@ namespace Farmacia_Milagro_De_La_Paz.PL
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(427, 55);
+            this.label5.Location = new System.Drawing.Point(427, 48);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(48, 13);
             this.label5.TabIndex = 4;
@@ -96,7 +96,7 @@ namespace Farmacia_Milagro_De_La_Paz.PL
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(42, 147);
+            this.label6.Location = new System.Drawing.Point(42, 128);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 13);
             this.label6.TabIndex = 5;
@@ -106,7 +106,7 @@ namespace Farmacia_Milagro_De_La_Paz.PL
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(42, 197);
+            this.label7.Location = new System.Drawing.Point(42, 167);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(39, 13);
             this.label7.TabIndex = 6;
@@ -121,42 +121,42 @@ namespace Farmacia_Milagro_De_La_Paz.PL
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(154, 92);
+            this.textBox2.Location = new System.Drawing.Point(154, 86);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 8;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(154, 140);
+            this.textBox3.Location = new System.Drawing.Point(154, 125);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 9;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(154, 190);
+            this.textBox4.Location = new System.Drawing.Point(154, 164);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 10;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(481, 52);
+            this.textBox5.Location = new System.Drawing.Point(481, 45);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 11;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(154, 250);
+            this.textBox6.Location = new System.Drawing.Point(154, 207);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 12;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(481, 243);
+            this.textBox7.Location = new System.Drawing.Point(481, 207);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 20);
             this.textBox7.TabIndex = 13;
@@ -165,16 +165,16 @@ namespace Farmacia_Milagro_De_La_Paz.PL
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(45, 288);
+            this.dataGridView1.Location = new System.Drawing.Point(45, 260);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(536, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(536, 174);
             this.dataGridView1.TabIndex = 14;
             // 
             // Empleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(633, 450);
+            this.ClientSize = new System.Drawing.Size(633, 467);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
