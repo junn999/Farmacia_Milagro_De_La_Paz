@@ -31,7 +31,7 @@ namespace Farmacia_Milagro_De_La_Paz.BLL
         }
 
         
-        public int Id1 { get => id; set => id = value; }
+        public int Id { get => id; set => id = value; }
         public string Nombre_del_producto { get => nombre_del_producto; set => nombre_del_producto = value; }
         public string Presentacion { get => presentacion; set => presentacion = value; }
         public string Fecha_de_caducidad { get => fecha_de_caducidad; set => fecha_de_caducidad = value; }

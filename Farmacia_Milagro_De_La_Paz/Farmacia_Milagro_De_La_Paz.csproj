@@ -49,6 +49,8 @@
     <Compile Include="BLL\EmpleadosBLL.cs" />
     <Compile Include="BLL\MedicamentosBLL.cs" />
     <Compile Include="BLL\PapeleriaBLL.cs" />
+    <Compile Include="BLL\ProveedorBLL.cs" />
+    <Compile Include="BLL\VentasBLL.cs" />
     <Compile Include="DAL\Database.cs" />
     <Compile Include="DAL\EmpleadosDAL.cs" />
     <Compile Include="DAL\MedicamentosDAL.cs" />
