@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Farmacia_Milagro_De_La_Paz.BLL
 {
-    public class EmpleadosBLL
+    public class Empleados_BLL
     {
         private int id;
         private string nombre_completo;
@@ -17,12 +17,12 @@ namespace Farmacia_Milagro_De_La_Paz.BLL
         private string salario;
         private string sucursal;
 
-        public EmpleadosBLL(int id)
+        public Empleados_BLL(int id)
         {
             this.id = id;
         }
 
-        public EmpleadosBLL(int id, string nombre_completo, string fecha_nacimiento, string numero_identidad, string telefono, string cargo, string salario, string sucursal)
+        public Empleados_BLL(int id, string nombre_completo, string fecha_nacimiento, string numero_identidad, string telefono, string cargo, string salario, string sucursal)
         {
             this.id = id;
             this.nombre_completo = nombre_completo;
