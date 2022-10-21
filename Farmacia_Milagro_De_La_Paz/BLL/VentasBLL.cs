@@ -38,4 +38,3 @@ namespace Farmacia_Milagro_De_La_Paz.BLL
         public string Total { get => total; set => total = value; }
     }
 }
-
