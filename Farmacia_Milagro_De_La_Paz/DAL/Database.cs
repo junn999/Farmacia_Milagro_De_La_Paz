@@ -13,7 +13,7 @@ namespace Farmacia_Milagro_De_La_Paz.DAL
         
             public static string getStrConnection()
             {
-                return Settings.Default.empleadosConnectionString;
+                return Settings.Default.ventasConnectionString;
             }
 
             public SqlConnection getConnection()
