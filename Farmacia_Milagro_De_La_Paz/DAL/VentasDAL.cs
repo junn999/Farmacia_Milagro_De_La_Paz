@@ -65,15 +65,7 @@ namespace Farmacia_Milagro_De_La_Paz.DAL
             }
         }
 
-        /// <summary>
-        /// ///////////////////////////////////////////////////////////////////////////////////////////////
-        /// </summary>
-        /// <param name="emp"></param>
-        /// <param name="sede"></param>
-        /// <param name="cargo"></param>
-        /// <returns></returns>
-
-        public bool updateEmpleado(EmpleadosBLL emp, SedesBLL sede, CargosBLL cargo)
+        public bool updateEmpleado(VentasBLL ven, EmpleadosBLL emp, MedicamentosBll med, Papeleria_BLL pap)
         {
             try
             {
@@ -81,18 +73,14 @@ namespace Farmacia_Milagro_De_La_Paz.DAL
                 using (SqlCommand cmd = Con.CreateCommand())
                 {
                     Con.Open();
-                    cmd.CommandText = "UPDATE Empleados SET nombres = @nom, apellidos = @ap, email = @em, telefono = @tel, id_sede = @idS, dui = @dui, id_cargo = @idC WHERE id = @id;";
-                    cmd.Parameters.AddWithValue("@id", emp.Id);
-                    cmd.Parameters.AddWithValue("@nom", emp.Nombres);
-                    cmd.Parameters.AddWithValue("@ap", emp.Apellidos);
-                    cmd.Parameters.AddWithValue("@em", emp.Email);
-                    cmd.Parameters.AddWithValue("@tel", emp.Telefono);
-                    cmd.Parameters.AddWithValue("@idS", sede.Id);
-                    cmd.Parameters.AddWithValue("@dui", emp.Dui);
-                    cmd.Parameters.AddWithValue("@idC", cargo.Id);
+                    cmd.CommandText = "INSERT INTO Ventas (cantidad_productos, total, id_empleados, id_medicamentos, id_papeleria) VALUES (@cprod, @total, @idE, @idM, @idP);";
+                    cmd.Parameters.AddWithValue("@cprod", ven.Cantidad_Productos);
+                    cmd.Parameters.AddWithValue("@total", ven.Total);
+                    cmd.Parameters.AddWithValue("@idE", emp.Id_Empleados);
+                    cmd.Parameters.AddWithValue("@idM", med.Id_Medicamentos);
+                    cmd.Parameters.AddWithValue("@idP", pap.Id_Papeleria);
                     cmd.ExecuteNonQuery();
                     Con.Close();
-
                     return true;
                 }
             }

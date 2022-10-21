@@ -83,6 +83,7 @@
     <Compile Include="PL\FormInicio.Designer.cs">
       <DependentUpon>FormInicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\frmEmpleados.cs" />
     <Compile Include="PL\Medicamentos.cs">
       <SubType>Form</SubType>
     </Compile>
