@@ -121,7 +121,6 @@
     <None Include="Farmacia_Milagro_De_La_PazDataSet1.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>Farmacia_Milagro_De_La_PazDataSet1.Designer.cs</LastGenOutput>
     </None>
     <None Include="Farmacia_Milagro_De_La_PazDataSet1.xss">
       <DependentUpon>Farmacia_Milagro_De_La_PazDataSet1.xsd</DependentUpon>
