@@ -54,6 +54,9 @@
     <Compile Include="DAL\Database.cs" />
     <Compile Include="DAL\EmpleadosDAL.cs" />
     <Compile Include="DAL\MedicamentosDAL.cs" />
+    <Compile Include="DAL\PapeleriaDAL.cs" />
+    <Compile Include="DAL\ProveedorDAL.cs" />
+    <Compile Include="DAL\VentasDAL.cs" />
     <Compile Include="Farmacia_Milagro_De_La_PazDataSet1.cs">
       <DependentUpon>Farmacia_Milagro_De_La_PazDataSet1.xsd</DependentUpon>
     </Compile>

@@ -38,7 +38,7 @@ namespace Farmacia_Milagro_De_La_Paz.DAL
             }
         }
 
-        public bool createEmpleado(VentasBll ven, EmpleadosBLL ven, MedicamentosBLL, PapeleriaBLL pap, ProveedorBLL prov)
+        public bool createEmpleado(VentasBLL ven, EmpleadosBLL emp, MedicamentosBll med, Papeleria_BLL pap)
         {
             try
             {
@@ -46,14 +46,12 @@ namespace Farmacia_Milagro_De_La_Paz.DAL
                 using (SqlCommand cmd = Con.CreateCommand())
                 {
                     Con.Open();
-                    cmd.CommandText = "INSERT INTO Ventas (nombres, apellidos, email, telefono, id_sede, dui, id_cargo) VALUES (@nom, @ap, @em, @tel, @idS, @dui, @idC);";
-                    cmd.Parameters.AddWithValue("@nom", ven.Nombres);
-                    cmd.Parameters.AddWithValue("@ap", ven.Apellidos);
-                    cmd.Parameters.AddWithValue("@em", ven.Email);
-                    cmd.Parameters.AddWithValue("@tel", ven.Telefono);
-                    cmd.Parameters.AddWithValue("@idS", sede.Id);
-                    cmd.Parameters.AddWithValue("@dui", ven.Dui);
-                    cmd.Parameters.AddWithValue("@idC", cargo.Id);
+                    cmd.CommandText = "INSERT INTO Ventas (cantidad_productos, total, id_empleados, id_medicamentos, id_papeleria) VALUES (@cprod, @total, @idE, @idM, @idP);";
+                    cmd.Parameters.AddWithValue("@cprod", ven.Cantidad_Productos);
+                    cmd.Parameters.AddWithValue("@total", ven.Total);
+                    cmd.Parameters.AddWithValue("@idE", emp.Id_Empleados);
+                    cmd.Parameters.AddWithValue("@idM", med.Id_Medicamentos);
+                    cmd.Parameters.AddWithValue("@idP", pap.Id_Papeleria);
                     cmd.ExecuteNonQuery();
                     Con.Close();
 
@@ -66,6 +64,14 @@ namespace Farmacia_Milagro_De_La_Paz.DAL
                 return false;
             }
         }
+
+        /// <summary>
+        /// ///////////////////////////////////////////////////////////////////////////////////////////////
+        /// </summary>
+        /// <param name="emp"></param>
+        /// <param name="sede"></param>
+        /// <param name="cargo"></param>
+        /// <returns></returns>
 
         public bool updateEmpleado(EmpleadosBLL emp, SedesBLL sede, CargosBLL cargo)
         {
