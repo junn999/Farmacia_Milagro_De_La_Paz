@@ -30,3 +30,4 @@ namespace Farmacia_Milagro_De_La_Paz.BLL
         public string Direccion { get => direccion; set => direccion = value; }
     }
 }
+
